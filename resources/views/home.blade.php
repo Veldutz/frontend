@@ -59,9 +59,9 @@
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="#">Art</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Event</a></li>
+                <li><a href="#">Kategori</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Pesanan</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -92,10 +92,9 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Kesenian</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Kategori</a></li>
+                            <li><a href="#">Pesanan</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -150,12 +149,12 @@
                             </form>
                         </div>
                     </div>
-                    <div class="img" data-setbg="{{asset('template/img/art/kriya-01.jpg')}}">
+                    <div class="img" data-setbg="{{asset('template/img/karya-seni/seni kriya/kriya01.jpg')}}">
                         <div class="hero__text">
                             <span>PRODUK TERBARU</span>
                             <h2>TERJAMIN <br />100% ORIGINAL</h2>
-                            <p>Pilih dan Beli sekarang</p>
-                            <a href="#" class="primary-btn">Beli Sekarang</a>
+                            <p>Pilih dan Pesan sekarang</p>
+                            <a href="#" class="primary-btn">Pesan Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -170,27 +169,27 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="{{asset('template/img/art/art-01.jpg')}}">
-                            <h5><a href="#">Fresh Fruit</a></h5>
+                        <div class="categories__item set-bg" data-setbg="{{asset('template/img/karya-seni/seni ilustrasi/1.jpg')}}">
+                            <h5><a href="#">Seni Ilustrasi</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{asset('template/img/art/art-02.jpg')}}">
-                            <h5><a href="#">Dried Fruit</a></h5>
+                            <h5><a href="#">Seni Kriya</a></h5>
                         </div> 
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{asset('template/img/art/art-galeri.jpg')}}">
-                            <h5><a href="#">Vegetables</a></h5>
+                            <h5><a href="#">Seni Lukis</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{asset('template/img/art/art-04.jpg')}}">
-                            <h5><a href="#">drink fruits</a></h5>
+                            <h5><a href="#">Seni Musik</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{asset('template/img/art/art.jpg')}}">
-                            <h5><a href="#">drink fruits</a></h5>
+                            <h5><a href="#">Seni Patung</a></h5>
                         </div>
                     </div>
                 </div>
@@ -205,15 +204,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>Featured Product</h2>
+                        <h2>Featured Art</h2>
                     </div>
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".oranges">Oranges</li>
-                            <li data-filter=".fresh-meat">Fresh Meat</li>
-                            <li data-filter=".vegetables">Vegetables</li>
-                            <li data-filter=".fastfood">Fastfood</li>
+                            <li data-filter=".seni-ilustrasi">Seni Ilustrasi</li>
+                            <li data-filter=".seni-kriya">Seni Kriya</li>
+                            <li data-filter=".seni-lukis">Seni Lukis</li>
+                            <li data-filter=".seni-musik">Seni Musik</li>
+                            <li data-filter=".seni-patung">Seni Patung</li>
+                            <li data-filter=".seni-rupa">Seni Rupa</li>
+                            <li data-filter=".seni-tari">Seni tari</li>
+                            <li data-filter=".seni-teater">Seni Teater</li>
                         </ul>
                     </div>
                 </div>
